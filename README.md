@@ -63,7 +63,7 @@ SSH 连接本身不会自动映射或同步文件，请勿将重要文件仅保�
 
 若有其他问题，可加入 AMD 赛道专属答疑群，进群先查看群公告；仍无法解决时，在[问题收集表](https://doc.weixin.qq.com/forms/AFQApAf6AHIAVwA9AaeABoCNHbhcXFenf_group)中提交问题描述、操作步骤及报错截图。若长时间未解决，可 @“AMD开发者小助手”协助跟进。
 
-> **群二维码/图片待补充：**原始资料在此处仅包含 `image` 占位，没有附带图片文件。
+![AMD 赛道专属答疑群二维码](assets/amd-qa-group-qr.jpg)
 
 请勿提交或公开密码、API Key、SSH 私钥等敏感信息。报名、组队、计分及作品提交问题，请按 OceanBase 赛事平台指引处理。
 
