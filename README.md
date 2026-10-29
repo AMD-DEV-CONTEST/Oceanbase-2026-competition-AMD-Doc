@@ -57,7 +57,20 @@ AMD 提供免费 Radeon Cloud GPU 算力，支持大家完成模型推理、项�
 
 建议将代码保存在本地，按需上传至远端运行；在远端开发时，定期将代码、数据、检查点和运行结果同步回本地。手动释放或自动回收前，务必完成备份，并确认重要文件已成功保存。
 
-SSH 连接本身不会自动映射或同步文件，请勿将重要文件仅保存在远端容器中。
+SSH 连接本身不会自动映射或同步文件，·请勿将重要文件仅保存在远端容器中。
+
+### 启动时提示「No matching Node has enough free CPU, memory, and GPUs for this launch」，怎么办？
+
+![没有足够空闲 CPU、内存和 GPU 的报错截图](assets/amd_qa-2.jpeg)
+
+
+当前资源池满，请等待。
+
+### 启动时提示「This template's resource pool or resource template is not assigned to your account」，怎么办？
+
+![资源池或资源模板未分配到账户的报错截图](assets/amd_qa-1.jpeg)
+
+请等待机器人将你的账号拉入资源池。如果超过一个小时仍出现此错误，请填写[问题收集表](https://doc.weixin.qq.com/forms/AFQApAf6AHIAVwA9AaeABoCNHbhcXFenf_group)。
 
 ## 其他问题如何反馈
 
