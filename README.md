@@ -79,8 +79,8 @@ Q=Q_{\mathrm{SIFT}}^{0.4}Q_{\mathrm{Hidden}}^{0.6}
 $$
 
 $$
-\text{总分}=4+14\,\operatorname{clamp}\!\left(\frac{\ln B}{\ln 3.0},0,1\right)
-+2\,\operatorname{clamp}\!\left(\frac{\ln Q}{\ln 1.5},0,1\right)
+\text{总分}=4+14\,\min\left(1,\max\left(0,\frac{\ln B}{\ln 3.0}\right)\right)
++2\,\min\left(1,\max\left(0,\frac{\ln Q}{\ln 1.5}\right)\right)
 \quad\text{（仅当全部硬门槛通过）}
 $$
 
